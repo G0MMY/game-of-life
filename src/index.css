@@ -1,0 +1,153 @@
+.box{
+    padding:35%;
+    border: 1px solid black;
+    background-color: white;
+    float: left;
+}
+.bigBox{
+    grid-template-columns:  repeat(90,1fr);
+    display: grid;
+    grid-gap: 0;
+    width:100%;
+    height: auto;
+    max-height: 150%;
+    overflow: auto;
+}
+.toad{
+    margin-left: 80px;
+    width: 96px;
+    grid-template-columns:  repeat(6,1fr);
+    display: grid;
+    grid-gap: 0;
+    cursor: grab;
+    z-index: 2;
+}
+.pulsar{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 200px;
+    grid-template-columns:  repeat(15,1fr);
+    display: grid;
+    grid-gap: 0;
+    cursor: grab;
+    z-index: 2;
+}
+.penta{
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 80px;
+    grid-template-columns:  repeat(5,1fr);
+    display: grid;
+    grid-gap: 0;
+    cursor: grab;
+    z-index: 2;
+}
+.ship{
+    margin-left: 70px;
+    margin-top: 30px;
+    width: 120px;
+    grid-template-columns:  repeat(7,1fr);
+    display: grid;
+    grid-gap: 0;
+    cursor: grab;
+    z-index: 2;
+}
+.glider{
+    margin-left: 87px;
+    margin-top: 30px;
+    width: 80px;
+    grid-template-columns:  repeat(5,1fr);
+    display: grid;
+    grid-gap: 0;
+    cursor: grab;
+    z-index: 2;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: initial;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #3E4549;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 5px;
+}
+.header{
+    width: 99%;
+    height: 30%;
+    background-color: #3E4549;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+.grid{
+    margin-top: 5px;
+    width: 100%;
+    max-height: 100%;
+}
+.menu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#form{
+    color:white;
+    font-size: 35px;
+}
+input[type=radio]{
+    width: 60px;
+    height: 20px;
+}
+.lexicon{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.close{
+    float: right;
+    margin-top: -45px;
+    margin-right: -15px;
+}
+.button{
+    height: 70px;
+    background-color: dodgerblue;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font:bold;
+}
+#color{
+    width: 200px;
+}
+#speedForm{
+    font-size: 35px;
+    margin-top: 15px;
+}
+body{
+  background-color: #DCDCDC;
+}
+
+
